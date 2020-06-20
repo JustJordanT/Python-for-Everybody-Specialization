@@ -18,3 +18,26 @@ mnemonic variables.
 ![[Pasted image 19.png]]
 
 ![[Pasted image 20.png]]
+
+2.2 - Expressions Part 2
+
+![[Pasted image 7.png]]
+
+![[Pasted image 8.png]]
+
+![[Pasted image 9.png]]
+
+![[Pasted image 10.png]]
+
+Traceback >> Python quite somewhere in you code. 
+
+![[Pasted image 11.png]]
+
+![[Pasted image 12.png]]
+
+We can always use `type` to find out what type of date you are using ie... `float, int, str` 
+
+![[Pasted image 13.png]]
+
+![[Pasted image 14.png]]
+
