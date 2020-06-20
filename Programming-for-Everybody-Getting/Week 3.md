@@ -2,7 +2,7 @@
 ## 1.4 - Writing Paragraphs of Code
 
 ![Pasted image 8.png](
-https://github.com/JustJordanT/Python-for-Everybody-Specialization/tree/master/Programming-for-Everybody-Getting/Pasted image 8.png)
+https://github.com/JustJordanT/Python-for-Everybody-Specialization/tree/master/Programming-for-Everybody-Getting/photo8.png)
 
 Words we are not able to use. 
 
