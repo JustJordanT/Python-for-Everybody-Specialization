@@ -10,11 +10,14 @@ fname = input("Enter file name: ")
 fh = open(fname)
 #Counter for the line counter. starts at `None` then for ever loop that passes if the line contains the `X-DSPAM` program will add + 1 to the counter.
 count = 0
+total = 0
 #For loop for counting the number of lines and computing the avg.
 for line in fh:
     if not line.startswith("X-DSPAM-Confidence:") : continue
-    print(line)
+#    print(line[19:])
     if line.startswith("X-DSPAM-Confidence:") :
+        totalcount = line[19:]
         count = count + 1
-print(line)
-print('Done:' , count)
+        total = total + float(totalcount)
+#print(line)
+print('Average spam confidence:' , total / count)
