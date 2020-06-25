@@ -12,3 +12,11 @@ This Specialization builds on the success of the [[Python]] for Everybody course
 - [Using Python to Access Web Data](https://www.coursera.org/learn/python-network-data?specialization=python)
 - [Using Databases with Python](https://www.coursera.org/learn/python-network-data?specialization=python)
 - [Capstone: Retrieving, Processing, and Visualizing Data with Python](https://www.coursera.org/learn/python-data-visualization)
+
+
+#### Usefull links.
+
+-
+-
+-
+-
