@@ -15,11 +15,11 @@ ctx.verify_mode = ssl.CERT_NONE
 count = 0
 url = ('http://py4e-data.dr-chuck.net/comments_695397.html')
 html = urllib.request.urlopen(url, context=ctx).read()
-soup = BeautifulSoup(html, 'html.parser')
-x = re.findall('[0-9]+', html)
-print(x)
+# soup = BeautifulSoup(html, 'html.parser')
+x = re.findall(b'>([0-9]+)', html)
+# print(x)
 # Retrieve all of the anchor tags
 for n in x:
     number = int(n)
     count = count + number
-print(count)
+print('Sum: ',count)
