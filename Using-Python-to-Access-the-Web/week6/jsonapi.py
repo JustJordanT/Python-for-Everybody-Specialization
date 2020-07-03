@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    geojson.py                                         :+:      :+:    :+:    #
+#    jsonapi.py                                         :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: JustJordanT <Jordantay9014@gmail.com>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/07/01 08:34:31 by JustJordanT       #+#    #+#              #
-#    Updated: 2020/07/02 09:24:44 by JustJordanT      ###   ########.fr        #
+#    Updated: 2020/07/02 10:29:49 by JustJordanT      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,10 +56,20 @@ while True:
         print(data)
         continue
 
-    print(json.dumps(js, indent=4))
+    # print(json.dumps(js, indent=4))
 
     lat = js['results'][0]['geometry']['location']['lat']
     lng = js['results'][0]['geometry']['location']['lng']
-    print('lat', lat, 'lng', lng)
+    place = js['results'][0]['place_id']
+    # print('lat', lat, 'lng', lng)
     location = js['results'][0]['formatted_address']
-    print(location)
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('=========================================\n')
+    print('Place ID:', place)
